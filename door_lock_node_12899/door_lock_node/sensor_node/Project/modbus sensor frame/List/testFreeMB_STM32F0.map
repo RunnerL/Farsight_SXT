@@ -1,0 +1,505 @@
+###############################################################################
+#
+# IAR ELF Linker V7.20.2.7424/W32 for ARM                 04/Jul/2016  02:14:43
+# Copyright 2007-2014 IAR Systems AB.
+#
+#    Output file  =  
+#        G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Exe\testFreeMB_STM32F0.out
+#    Map file     =  
+#        G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\List\testFreeMB_STM32F0.map
+#    Command line =  
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\FS_FIFO_V1.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\Lock_Door_Opt.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\main.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\mb.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\mbcrc.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\mbfunccoils.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\mbfuncdiag.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\mbfuncdisc.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\mbfuncholding.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\mbfuncinput.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\mbfuncother.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\mbrtu.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\mbutils.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\myiic.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\portevent.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\portserial.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\porttimer.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\startup_stm32f0xx.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\stm32f0xx_adc.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\stm32f0xx_cec.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\stm32f0xx_comp.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\stm32f0xx_crc.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\stm32f0xx_dac.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\stm32f0xx_dbgmcu.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\stm32f0xx_dma.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\stm32f0xx_exti.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\stm32f0xx_flash.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\stm32f0xx_gpio.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\stm32f0xx_i2c.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\stm32f0xx_it.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\stm32f0xx_iwdg.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\stm32f0xx_misc.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\stm32f0xx_pwr.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\stm32f0xx_rcc.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\stm32f0xx_rtc.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\stm32f0xx_spi.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\stm32f0xx_syscfg.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\stm32f0xx_tim.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\stm32f0xx_usart.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\stm32f0xx_wwdg.o"
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Obj\system_stm32f0xx.o" --redirect _Printf=_PrintfFull
+#        --redirect _Scanf=_ScanfFull -o
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\Exe\testFreeMB_STM32F0.out" --map
+#        "G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus
+#        sensor frame\List\testFreeMB_STM32F0.map" --config
+#        D:\IAR\arm\config\linker\ST\stm32f051x8.icf --semihosting --entry
+#        __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor                     = *
+__Heap_Handler                = Basic
+__SystemLibrary               = DLib
+__dlib_dynamic_initialization = normal
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0800ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x20001fff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                       0xc0
+  .intvec            ro code  0x08000000    0xc0  startup_stm32f0xx.o [1]
+                            - 0x080000c0    0xc0
+
+"P1":                                     0x1bbc
+  .text              ro code  0x080000c0   0x38c  mbrtu.o [1]
+  .text              ro code  0x0800044c   0x1a8  portserial.o [1]
+  .text              ro code  0x080005f4    0xae  I32DivModFast.o [5]
+  .text              ro code  0x080006a2    0x2a  zero_init3.o [5]
+  .text              ro code  0x080006cc    0xec  porttimer.o [1]
+  .text              ro code  0x080007b8    0x24  ABIassert.o [6]
+  .text              ro code  0x080007dc   0x22c  mbcrc.o [1]
+  .text              ro code  0x08000a08    0x30  portevent.o [1]
+  .text              ro code  0x08000a38   0x156  stm32f0xx_usart.o [1]
+  .text              ro code  0x08000b8e     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000b90   0x120  stm32f0xx_rcc.o [1]
+  .text              ro code  0x08000cb0    0x8a  stm32f0xx_gpio.o [1]
+  .text              ro code  0x08000d3a     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000d3c    0x54  stm32f0xx_misc.o [1]
+  .text              ro code  0x08000d90     0x2  IntDivZer.o [5]
+  .text              ro code  0x08000d92     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000d94    0xda  stm32f0xx_tim.o [1]
+  .text              ro code  0x08000e6e     0xa  abort.o [3]
+  .text              ro code  0x08000e78    0x14  exit.o [6]
+  .text              ro code  0x08000e8c   0x32c  main.o [1]
+  .text              ro code  0x080011b8    0x46  FS_FIFO_V1.o [1]
+  .text              ro code  0x080011fe     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08001200   0x13c  mb.o [1]
+  .text              ro code  0x0800133c   0x124  Lock_Door_Opt.o [1]
+  .text              ro code  0x08001460    0x4c  ABImemset.o [5]
+  .text              ro code  0x080014ac   0x194  mbfuncholding.o [1]
+  .text              ro code  0x08001640    0x1a  mbutils.o [1]
+  .text              ro code  0x0800165a     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x0800165c   0x134  mbfunccoils.o [1]
+  .text              ro code  0x08001790    0xec  system_stm32f0xx.o [1]
+  .text              ro code  0x0800187c    0xa0  stm32f0xx_it.o [1]
+  .text              ro code  0x0800191c    0x74  mbfuncdisc.o [1]
+  .text              ro code  0x08001990    0x62  mbfuncinput.o [1]
+  .text              ro code  0x080019f2     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x080019f4    0x5c  ABImemcpy.o [5]
+  .text              ro code  0x08001a50    0x30  copy_init3.o [5]
+  .text              ro code  0x08001a80    0x28  data_init.o [5]
+  .iar.init_table    const    0x08001aa8    0x24  - Linker created -
+  .text              ro code  0x08001acc    0x20  mbfuncother.o [1]
+  .text              ro code  0x08001aec    0x1a  cmain.o [5]
+  .text              ro code  0x08001b06     0x4  low_level_init.o [3]
+  .text              ro code  0x08001b0a     0x8  exit.o [3]
+  .text              ro code  0x08001b12     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08001b14     0xa  cexit.o [5]
+  .text              ro code  0x08001b1e     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08001b20    0x10  startup_stm32f0xx.o [1]
+  .text              ro code  0x08001b30     0xc  cstartup_M.o [5]
+  .text              ro code  0x08001b3c     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08001b3e     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08001b40     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08001b42     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08001b44     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08001b46     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08001b48     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08001b4a     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08001b4c     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08001b4e     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08001b50     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08001b52     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08001b54     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08001b56     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08001b58     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08001b5a     0x2  startup_stm32f0xx.o [1]
+  .rodata            const    0x08001b5c     0x0  zero_init3.o [5]
+  .rodata            const    0x08001b5c     0x0  copy_init3.o [5]
+  Initializer bytes  ro data  0x08001b5c   0x120  <for P2 s0>
+                            - 0x08001c7c  0x1bbc
+
+"P2":                                      0xad0
+  P2 s0                       0x20000000   0x120  <Init block>
+    .data            inited   0x20000000    0x80  mb.o [1]
+    .data            inited   0x20000080    0x2c  Lock_Door_Opt.o [1]
+    .data            inited   0x200000ac    0x2c  mb.o [1]
+    .data            inited   0x200000d8    0x24  Lock_Door_Opt.o [1]
+    .data            inited   0x200000fc    0x14  system_stm32f0xx.o [1]
+    .data            inited   0x20000110    0x10  stm32f0xx_rcc.o [1]
+  .bss               zero     0x20000120   0x100  mbrtu.o [1]
+  .bss               zero     0x20000220    0x4a  Lock_Door_Opt.o [1]
+  .bss               zero     0x2000026a     0x2  portevent.o [1]
+  .bss               zero     0x2000026c    0x22  mbfuncother.o [1]
+  .bss               zero     0x2000028e     0x1  Lock_Door_Opt.o [1]
+  .bss               zero     0x20000290    0x1c  main.o [1]
+  .bss               zero     0x200002ac     0xe  main.o [1]
+  .bss               zero     0x200002bc     0xc  mbrtu.o [1]
+  .bss               zero     0x200002c8     0x4  main.o [1]
+  .bss               zero     0x200002cc     0x4  porttimer.o [1]
+  CSTACK                      0x200002d0   0x800  <Block>
+    CSTACK           uninit   0x200002d0   0x800  <Block tail>
+                            - 0x20000ad0   0xad0
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x1b0:
+          0x20000120  0x1b0
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x120:
+          0x08001b5c  0x120
+    1 destination range, total size 0x120:
+          0x20000000  0x120
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module               ro code  ro data  rw data
+    ------               -------  -------  -------
+G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus sensor frame\Obj: [1]
+    FS_FIFO_V1.o              70
+    Lock_Door_Opt.o          292       80      155
+    main.o                   812                46
+    mb.o                     316      172      172
+    mbcrc.o                  556
+    mbfunccoils.o            308
+    mbfuncdisc.o             116
+    mbfuncholding.o          404
+    mbfuncinput.o             98
+    mbfuncother.o             32                34
+    mbrtu.o                  908               268
+    mbutils.o                 26
+    portevent.o               48                 2
+    portserial.o             424
+    porttimer.o              236                 4
+    startup_stm32f0xx.o      256
+    stm32f0xx_gpio.o         138
+    stm32f0xx_it.o           160
+    stm32f0xx_misc.o          84
+    stm32f0xx_rcc.o          288       16       16
+    stm32f0xx_tim.o          218
+    stm32f0xx_usart.o        342
+    system_stm32f0xx.o       236       20       20
+    ----------------------------------------------
+    Total:                 6 368      288      717
+
+command line: [2]
+    ----------------------------------------------
+    Total:
+
+dl6M_tlf.a: [3]
+    abort.o                   10
+    exit.o                     8
+    low_level_init.o           4
+    ----------------------------------------------
+    Total:                    22
+
+m6M_tl.a: [4]
+    ----------------------------------------------
+    Total:
+
+rt6M_tl.a: [5]
+    ABImemcpy.o               92
+    ABImemset.o               76
+    I32DivModFast.o          174
+    IntDivZer.o                2
+    cexit.o                   10
+    cmain.o                   26
+    copy_init3.o              48
+    cstartup_M.o              12
+    data_init.o               40
+    zero_init3.o              42
+    ----------------------------------------------
+    Total:                   522
+
+shb_l.a: [6]
+    ABIassert.o               36
+    exit.o                    20
+    ----------------------------------------------
+    Total:                    56
+
+    Gaps                                         3
+    Linker created                     36    2 048
+--------------------------------------------------
+    Grand Total:           6 968      324    2 768
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+?main                   0x08001aed         Code  Gb  cmain.o [5]
+AHBPrescTable           0x200000fc   0x10  Data  Gb  system_stm32f0xx.o [1]
+APBAHBPrescTable        0x20000110   0x10  Data  Lc  stm32f0xx_rcc.o [1]
+CSTACK$$Base            0x200002d0          --   Gb  - Linker created -
+CSTACK$$Limit           0x20000ad0          --   Gb  - Linker created -
+DoorIDH                 0x20000268    0x2  Data  Gb  Lock_Door_Opt.o [1]
+DoorIDL                 0x20000266    0x2  Data  Gb  Lock_Door_Opt.o [1]
+Door_Flag               0x20000264    0x1  Data  Gb  Lock_Door_Opt.o [1]
+Door_Flag1              0x2000028e    0x1  Data  Gb  Lock_Door_Opt.o [1]
+Door_state              0x200000a4    0x2  Data  Gb  Lock_Door_Opt.o [1]
+GPIO_Init               0x08000cb1   0x6a  Code  Gb  stm32f0xx_gpio.o [1]
+GPIO_PinAFConfig        0x08000d1b   0x20  Code  Gb  stm32f0xx_gpio.o [1]
+Get_Search_Cmd          0x0800135f   0x26  Code  Gb  Lock_Door_Opt.o [1]
+Get_State_Of_Door       0x080013a5   0x28  Code  Gb  Lock_Door_Opt.o [1]
+HardFault_Handler       0x0800187f    0x2  Code  Gb  stm32f0xx_it.o [1]
+Index                   0x200000a8    0x4  Data  Gb  Lock_Door_Opt.o [1]
+Lock_Command_Remote_Open_Door
+                        0x200000d8   0x24  Data  Gb  Lock_Door_Opt.o [1]
+Lock_Command_To_Search  0x20000080   0x24  Data  Gb  Lock_Door_Opt.o [1]
+NMI_Handler             0x0800187d    0x2  Code  Gb  stm32f0xx_it.o [1]
+NVIC_Init               0x08000d3d   0x46  Code  Gb  stm32f0xx_misc.o [1]
+PendSV_Handler          0x08001883    0x2  Code  Gb  stm32f0xx_it.o [1]
+QueueIn                 0x080011cd   0x32  Code  Gb  FS_FIFO_V1.o [1]
+QueueInit               0x080011b9   0x14  Code  Gb  FS_FIFO_V1.o [1]
+RCC_AHBPeriphClockCmd   0x08000c53   0x14  Code  Gb  stm32f0xx_rcc.o [1]
+RCC_APB1PeriphClockCmd  0x08000c7b   0x14  Code  Gb  stm32f0xx_rcc.o [1]
+RCC_APB2PeriphClockCmd  0x08000c67   0x14  Code  Gb  stm32f0xx_rcc.o [1]
+RCC_Clocks              0x20000290   0x1c  Data  Gb  main.o [1]
+RCC_GetClocksFreq       0x08000b91   0xc2  Code  Gb  stm32f0xx_rcc.o [1]
+Region$$Table$$Base     0x08001aa8          --   Gb  - Linker created -
+Region$$Table$$Limit    0x08001acc          --   Gb  - Linker created -
+SVC_Handler             0x08001881    0x2  Code  Gb  stm32f0xx_it.o [1]
+SetAndSendRemoteOpenDoorCmd
+                        0x08001441    0xa  Code  Gb  Lock_Door_Opt.o [1]
+SysTick_Handler         0x08001885    0x8  Code  Gb  stm32f0xx_it.o [1]
+SystemCoreClock         0x2000010c    0x4  Data  Gb  system_stm32f0xx.o [1]
+SystemInit              0x08001791   0xce  Code  Gb  system_stm32f0xx.o [1]
+TIM14_IRQHandler        0x080018ad   0x1e  Code  Gb  stm32f0xx_it.o [1]
+TIM2_IRQHandler         0x0800188d   0x20  Code  Gb  stm32f0xx_it.o [1]
+TIM3_IRQHandler         0x0800077f   0x26  Code  Gb  porttimer.o [1]
+TIM_ARRPreloadConfig    0x08000df1   0x14  Code  Gb  stm32f0xx_tim.o [1]
+TIM_ClearITPendingBit   0x08000e69    0x6  Code  Gb  stm32f0xx_tim.o [1]
+TIM_Cmd                 0x08000e05   0x14  Code  Gb  stm32f0xx_tim.o [1]
+TIM_GetITStatus         0x08000e53   0x16  Code  Gb  stm32f0xx_tim.o [1]
+TIM_ITConfig            0x08000e41   0x12  Code  Gb  stm32f0xx_tim.o [1]
+TIM_SetCounter          0x08000ded    0x4  Code  Gb  stm32f0xx_tim.o [1]
+TIM_TimeBaseInit        0x08000d95   0x58  Code  Gb  stm32f0xx_tim.o [1]
+Timer2_Get_Sensor_Data  0x080013cd   0x74  Code  Gb  Lock_Door_Opt.o [1]
+TimingDelay             0x200002c8    0x4  Data  Lc  main.o [1]
+TimingDelay_Decrement   0x08001181   0x10  Code  Gb  main.o [1]
+USART1_IRQHandler       0x08000547   0x94  Code  Gb  portserial.o [1]
+USART2_IRQHandler       0x080018cb   0x42  Code  Gb  stm32f0xx_it.o [1]
+USART_ClearFlag         0x08000b49    0x4  Code  Gb  stm32f0xx_usart.o [1]
+USART_ClearITPendingBit
+                        0x08000b85    0xa  Code  Gb  stm32f0xx_usart.o [1]
+USART_Cmd               0x08000ad5   0x16  Code  Gb  stm32f0xx_usart.o [1]
+USART_GetFlagStatus     0x08000b3b    0xe  Code  Gb  stm32f0xx_usart.o [1]
+USART_GetITStatus       0x08000b4d   0x38  Code  Gb  stm32f0xx_usart.o [1]
+USART_ITConfig          0x08000b11   0x2a  Code  Gb  stm32f0xx_usart.o [1]
+USART_Init              0x08000a39   0x9c  Code  Gb  stm32f0xx_usart.o [1]
+USART_ReceiveData       0x08000af3    0x8  Code  Gb  stm32f0xx_usart.o [1]
+USART_SendData          0x08000aeb    0x8  Code  Gb  stm32f0xx_usart.o [1]
+Usart_Init              0x08000ff5   0xc2  Code  Gb  main.o [1]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x20001fff          --   Gb  command line/config [2]
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x20000000          --   Gb  command line/config [2]
+__aeabi_assert          0x080007bb   0x1e  Code  Gb  ABIassert.o [6]
+__aeabi_idiv0           0x08000d91         Code  Gb  IntDivZer.o [5]
+__aeabi_memclr          0x080014a5         Code  Gb  ABImemset.o [5]
+__aeabi_memcpy          0x080019f5         Code  Gb  ABImemcpy.o [5]
+__aeabi_uidiv           0x080005f5         Code  Gb  I32DivModFast.o [5]
+__aeabi_uidivmod        0x080005f5         Code  Gb  I32DivModFast.o [5]
+__as_entries_start      0xffffffff          --   Gb  command line/config [2]
+__as_table_start        0xffffffff          --   Gb  command line/config [2]
+__cmain                 0x08001aed         Code  Gb  cmain.o [5]
+__exit                  0x08000e79   0x14  Code  Gb  exit.o [6]
+__iar_EmptyStepPoint    0x080007b9    0x2  Code  Gb  ABIassert.o [6]
+__iar_Memset4_word      0x08001475         Code  Gb  ABImemset.o [5]
+__iar_Memset_word       0x08001461         Code  Gb  ABImemset.o [5]
+__iar_copy_init3        0x08001a51   0x30  Code  Gb  copy_init3.o [5]
+__iar_data_init3        0x08001a81   0x28  Code  Gb  data_init.o [5]
+__iar_program_start     0x08001b31         Code  Gb  cstartup_M.o [5]
+__iar_zero_init3        0x080006a3   0x2a  Code  Gb  zero_init3.o [5]
+__low_level_init        0x08001b07    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000         Data  Gb  startup_stm32f0xx.o [1]
+_call_main              0x08001af9         Code  Gb  cmain.o [5]
+_exit                   0x08001b15         Code  Gb  cexit.o [5]
+_main                   0x08001b03         Code  Gb  cmain.o [5]
+abort                   0x08000e6f    0xa  Code  Gb  abort.o [3]
+aucCRCHi                0x08000808  0x100  Data  Lc  mbcrc.o [1]
+aucCRCLo                0x08000908  0x100  Data  Lc  mbcrc.o [1]
+board_init              0x08000e8d   0x5a  Code  Gb  main.o [1]
+eMBEnable               0x0800125d   0x1c  Code  Gb  mb.o [1]
+eMBFuncReadCoils        0x0800165d   0x76  Code  Gb  mbfunccoils.o [1]
+eMBFuncReadDiscreteInputs
+                        0x0800191d   0x74  Code  Gb  mbfuncdisc.o [1]
+eMBFuncReadHoldingRegister
+                        0x0800152f   0x60  Code  Gb  mbfuncholding.o [1]
+eMBFuncReadInputRegister
+                        0x08001991   0x62  Code  Gb  mbfuncinput.o [1]
+eMBFuncReadWriteMultipleHoldingRegister
+                        0x0800158f   0xb2  Code  Gb  mbfuncholding.o [1]
+eMBFuncReportSlaveID    0x08001acd   0x1a  Code  Gb  mbfuncother.o [1]
+eMBFuncWriteCoil        0x080016d3   0x58  Code  Gb  mbfunccoils.o [1]
+eMBFuncWriteHoldingRegister
+                        0x080014ad   0x32  Code  Gb  mbfuncholding.o [1]
+eMBFuncWriteMultipleCoils
+                        0x0800172b   0x62  Code  Gb  mbfunccoils.o [1]
+eMBFuncWriteMultipleHoldingRegister
+                        0x080014df   0x50  Code  Gb  mbfuncholding.o [1]
+eMBInit                 0x08001201   0x5c  Code  Gb  mb.o [1]
+eMBPoll                 0x08001279   0x9e  Code  Gb  mb.o [1]
+eMBRTUInit              0x080000c1   0x36  Code  Gb  mbrtu.o [1]
+eMBRTUReceive           0x0800011d   0x50  Code  Gb  mbrtu.o [1]
+eMBRTUSend              0x0800016d   0x60  Code  Gb  mbrtu.o [1]
+eMBRTUStart             0x080000f7   0x16  Code  Gb  mbrtu.o [1]
+eMBRTUStop              0x0800010d   0x10  Code  Gb  mbrtu.o [1]
+eMBRegCoilsCB           0x08001175    0x4  Code  Gb  main.o [1]
+eMBRegDiscreteCB        0x08001179    0x4  Code  Gb  main.o [1]
+eMBRegHoldingCB         0x08000f3b   0x92  Code  Gb  main.o [1]
+eMBRegInputCB           0x08001171    0x4  Code  Gb  main.o [1]
+eMBState                0x200000ad    0x1  Data  Lc  mb.o [1]
+eQueuedEvent            0x2000026a    0x1  Data  Lc  portevent.o [1]
+eRcvState               0x200002bd    0x1  Data  Lc  mbrtu.o [1]
+eSndState               0x200002bc    0x1  Data  Lc  mbrtu.o [1]
+exit                    0x08001b0b    0x8  Code  Gb  exit.o [3]
+get_door_lock_msgs      0x0800133d   0x22  Code  Gb  Lock_Door_Opt.o [1]
+get_sensor_data         0x08001393   0x12  Code  Gb  Lock_Door_Opt.o [1]
+lock_fifo               0x20000220   0x44  Data  Gb  Lock_Door_Opt.o [1]
+main                    0x08000ef9   0x42  Code  Gb  main.o [1]
+peMBFrameReceiveCur     0x200000c0    0x4  Data  Lc  mb.o [1]
+peMBFrameSendCur        0x200000b4    0x4  Data  Lc  mb.o [1]
+prveMBError2Exception   0x08001641   0x1a  Code  Gb  mbutils.o [1]
+pucSndBufferCur         0x200002c4    0x4  Data  Lc  mbrtu.o [1]
+pvMBFrameCloseCur       0x200000c4    0x4  Data  Lc  mb.o [1]
+pvMBFrameStartCur       0x200000b8    0x4  Data  Lc  mb.o [1]
+pvMBFrameStopCur        0x200000bc    0x4  Data  Lc  mb.o [1]
+pxMBFrameCBByteReceived
+                        0x200000c8    0x4  Data  Gb  mb.o [1]
+pxMBFrameCBTransmitterEmpty
+                        0x200000cc    0x4  Data  Gb  mb.o [1]
+pxMBPortCBTimerExpired  0x200000d0    0x4  Data  Gb  mb.o [1]
+send_data               0x08000fcd   0x28  Code  Gb  main.o [1]
+send_lock_cmd           0x08001385    0xe  Code  Gb  Lock_Door_Opt.o [1]
+tim3_cnt                0x200002cc    0x4  Data  Lc  porttimer.o [1]
+timer14_init            0x0800110d   0x3a  Code  Gb  main.o [1]
+timer2_init             0x080010b7   0x40  Code  Gb  main.o [1]
+ucMBAddress             0x200000ac    0x1  Data  Lc  mb.o [1]
+ucMBSlaveID             0x2000026c   0x20  Data  Lc  mbfuncother.o [1]
+ucRTUBuf                0x20000120  0x100  Data  Gb  mbrtu.o [1]
+usMBCRC16               0x080007dd   0x2a  Code  Gb  mbcrc.o [1]
+usMBSlaveIDLen          0x2000028c    0x2  Data  Lc  mbfuncother.o [1]
+usRcvBufferPos          0x200002c0    0x2  Data  Lc  mbrtu.o [1]
+usRegHoldingBuf         0x200002ac    0xc  Data  Gb  main.o [1]
+usRegHoldingStart       0x200002b8    0x2  Data  Gb  main.o [1]
+usSndBufferCount        0x200002be    0x2  Data  Lc  mbrtu.o [1]
+vMBPortSerialEnable     0x0800044d   0x2c  Code  Gb  portserial.o [1]
+vMBPortTimersDisable    0x08000757   0x20  Code  Gb  porttimer.o [1]
+vMBPortTimersEnable     0x08000735   0x22  Code  Gb  porttimer.o [1]
+xEventInQueue           0x2000026b    0x1  Data  Lc  portevent.o [1]
+xFuncHandlers           0x20000000   0x80  Data  Lc  mb.o [1]
+xMBPortEventGet         0x08000a1f   0x16  Code  Gb  portevent.o [1]
+xMBPortEventInit        0x08000a09    0xa  Code  Gb  portevent.o [1]
+xMBPortEventPost        0x08000a13    0xc  Code  Gb  portevent.o [1]
+xMBPortSerialGetByte    0x08000537   0x10  Code  Gb  portserial.o [1]
+xMBPortSerialInit       0x08000479   0xb0  Code  Gb  portserial.o [1]
+xMBPortSerialPutByte    0x08000529    0xe  Code  Gb  portserial.o [1]
+xMBPortTimersInit       0x080006cd   0x68  Code  Gb  porttimer.o [1]
+xMBRTUReceiveFSM        0x080001cd   0x72  Code  Gb  mbrtu.o [1]
+xMBRTUTimerT35Expired   0x080002ad   0x52  Code  Gb  mbrtu.o [1]
+xMBRTUTransmitFSM       0x08000241   0x6a  Code  Gb  mbrtu.o [1]
+
+
+[1] = G:\工作\综合实训平台\电表&门禁\door_lock_node_12899\door_lock_node\sensor_node\Project\modbus sensor frame\Obj
+[2] = command line
+[3] = dl6M_tlf.a
+[4] = m6M_tl.a
+[5] = rt6M_tl.a
+[6] = shb_l.a
+
+  6 968 bytes of readonly  code memory
+    324 bytes of readonly  data memory
+  2 768 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
