@@ -154,6 +154,7 @@ void USART1_IRQHandler(void)
 	{
 		prvvUARTTxReadyISR();
 	}
+
 	HAL_NVIC_ClearPendingIRQ(USART1_IRQn);
 
   /* USER CODE END USART1_IRQn 0 */

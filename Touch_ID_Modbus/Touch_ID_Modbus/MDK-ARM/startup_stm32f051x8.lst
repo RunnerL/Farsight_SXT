@@ -399,12 +399,12 @@ ARM Macro Assembler    Page 7
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M0 --apcs=interw
 ork --depend="touch_id configuration\startup_stm32f051x8.d" -o"touch_id configu
-ration\startup_stm32f051x8.o" -IG:\工作\综合实训平台\指纹\Touch_ID_Modbus\Touch
-_ID_Modbus\MDK-ARM\RTE -ID:\MDK5.14\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include -ID:
-\MDK5.14\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include --predefine="__MICROL
-IB SETA 1" --predefine="__UVISION_VERSION SETA 514" --predefine="_RTE_ SETA 1" 
---predefine="STM32F051 SETA 1" --list=startup_stm32f051x8.lst ../Drivers/CMSIS/
-Device/ST/STM32F0xx/Source/Templates/arm/startup_stm32f051x8.s
+ration\startup_stm32f051x8.o" -IC:\Users\runner\Desktop\Touch_ID_Modbus\Touch_I
+D_Modbus\MDK-ARM\RTE -ID:\MDK5.14\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include -ID:\M
+DK5.14\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include --predefine="__MICROLIB
+ SETA 1" --predefine="__UVISION_VERSION SETA 514" --predefine="_RTE_ SETA 1" --
+predefine="STM32F051 SETA 1" --list=startup_stm32f051x8.lst ../Drivers/CMSIS/De
+vice/ST/STM32F0xx/Source/Templates/arm/startup_stm32f051x8.s
 
 
 

@@ -51,6 +51,8 @@ vMBPortSerialEnable( BOOL xRxEnable, BOOL xTxEnable )
     //使能接收和接收中断
 		HAL_NVIC_SetPriority(USART1_IRQn, 0, 0);
     HAL_NVIC_EnableIRQ(USART1_IRQn);
+		__HAL_UART_ENABLE_IT(&huart1, UART_IT_PE);
+		__HAL_UART_ENABLE_IT(&huart1, UART_IT_ERR);
     __HAL_UART_ENABLE_IT(&huart1, UART_IT_RXNE);
     //MAX485操作 低电平为接收模式
 //    GPIO_ResetBits(GPIOF,GPIO_Pin_4);
