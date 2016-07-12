@@ -1,4 +1,4 @@
-"G:\工作\综合实训平台\电表&门禁\door_lock_node_12914\door_lock_node\sensor_node\Libraries\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_spi.c"
+"G:\工作\综合实训平台\电表&门禁\door_lock_node_12914\door_lock_node\sensor_node\Lock_Door_Opt.c"
 -std=c99
 -ferror-limit=100
 -I
@@ -57,6 +57,7 @@ D:\IAR\arm\CMSIS\Include
 -DSTM32F0XX=1
 -DUSE_STM320518_EVAL=1
 -DUSE_DEFAULT_TIMEOUT_CALLBACK=1
+-DLIGHT=1
 -DxxBEEP=1
 -DxxEEPROM=1
 -DxxDEBUG=1
@@ -248,7 +249,7 @@ D:\IAR\arm\CMSIS\Include
 -D__HAS_LOCATED_WITH_INIT__=1
 -D__IAR_COMPILERBASE__=593924
 -D__DATE__="Jul  8 2016"
--D__TIME__="14:08:40"
+-D__TIME__="14:07:56"
 -D__STDC__=1
 -D__STDC_VERSION__=199901L
 -D__STDC_HOSTED__=1

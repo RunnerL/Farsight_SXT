@@ -357,7 +357,7 @@ void timer14_init(void)
   uint16_t PrescalerValue = 0;
   RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM14, ENABLE);
   PrescalerValue = (uint16_t) ((SystemCoreClock / 20000) - 1); 
-  TIM_TimeBaseStructure.TIM_Period = GET_DATA_INTEVAL * 1;
+  TIM_TimeBaseStructure.TIM_Period = 200;
   TIM_TimeBaseStructure.TIM_Prescaler = PrescalerValue;
   TIM_TimeBaseStructure.TIM_ClockDivision = 0;
   TIM_TimeBaseStructure.TIM_CounterMode = TIM_CounterMode_Up;

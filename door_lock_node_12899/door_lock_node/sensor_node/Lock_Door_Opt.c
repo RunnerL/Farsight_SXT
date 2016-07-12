@@ -30,7 +30,7 @@ extern uint16_t usRegHoldingBuf[REG_HOLDING_NREGS];
 uint8_t Lock_Command_To_Search[LOCK_CMD_SIZE] = {
               0x7e, //start
               0x63, //--------|
-              0x32, //--------|board addr  SN:12899
+              0x32, //--------|board addr  SN:12914
               0x81, //--------|
               0x10, //--------|function bits
               0x00, //----------------------\__________________

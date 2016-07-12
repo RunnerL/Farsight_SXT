@@ -1,28 +1,28 @@
-"C:\Users\runner\Desktop\STM32Cube_test\door_lock_node\sensor_node\main.c"
+"G:\工作\综合实训平台\电表&门禁\door_lock_node_12914\door_lock_node\sensor_node\main.c"
 -std=c99
 -ferror-limit=100
 -I
-C:\Users\runner\Desktop\STM32Cube_test\door_lock_node\sensor_node\Project\..
+G:\工作\综合实训平台\电表&门禁\door_lock_node_12914\door_lock_node\sensor_node\Project\..
 -I
-C:\Users\runner\Desktop\STM32Cube_test\door_lock_node\sensor_node\Project\..\Drivers\24CXX
+G:\工作\综合实训平台\电表&门禁\door_lock_node_12914\door_lock_node\sensor_node\Project\..\Drivers\24CXX
 -I
-C:\Users\runner\Desktop\STM32Cube_test\door_lock_node\sensor_node\Project\..\Drivers\FreeModbus\modbus\include
+G:\工作\综合实训平台\电表&门禁\door_lock_node_12914\door_lock_node\sensor_node\Project\..\Drivers\FreeModbus\modbus\include
 -I
-C:\Users\runner\Desktop\STM32Cube_test\door_lock_node\sensor_node\Project\..\Drivers\FreeModbus\modbus\rtu
+G:\工作\综合实训平台\电表&门禁\door_lock_node_12914\door_lock_node\sensor_node\Project\..\Drivers\FreeModbus\modbus\rtu
 -I
-C:\Users\runner\Desktop\STM32Cube_test\door_lock_node\sensor_node\Project\..\Drivers\FreeModbus\port
+G:\工作\综合实训平台\电表&门禁\door_lock_node_12914\door_lock_node\sensor_node\Project\..\Drivers\FreeModbus\port
 -I
-C:\Users\runner\Desktop\STM32Cube_test\door_lock_node\sensor_node\Project\..\Libraries\CMSIS\Device\ST\STM32F0xx\Include
+G:\工作\综合实训平台\电表&门禁\door_lock_node_12914\door_lock_node\sensor_node\Project\..\Libraries\CMSIS\Device\ST\STM32F0xx\Include
 -I
-C:\Users\runner\Desktop\STM32Cube_test\door_lock_node\sensor_node\Project\..\Libraries\STM32F0xx_StdPeriph_Driver\inc
+G:\工作\综合实训平台\电表&门禁\door_lock_node_12914\door_lock_node\sensor_node\Project\..\Libraries\STM32F0xx_StdPeriph_Driver\inc
 -I
-C:\Users\runner\Desktop\STM32Cube_test\door_lock_node\sensor_node\Project\..\Libraries\STM32F0xx_CPAL_Driver\inc
+G:\工作\综合实训平台\电表&门禁\door_lock_node_12914\door_lock_node\sensor_node\Project\..\Libraries\STM32F0xx_CPAL_Driver\inc
 -I
-C:\Users\runner\Desktop\STM32Cube_test\door_lock_node\sensor_node\Project\..\Utilities\STM32_EVAL\Common
+G:\工作\综合实训平台\电表&门禁\door_lock_node_12914\door_lock_node\sensor_node\Project\..\Utilities\STM32_EVAL\Common
 -I
-C:\Users\runner\Desktop\STM32Cube_test\door_lock_node\sensor_node\Project\..\Utilities\STM32_EVAL\STM320518_EVAL
+G:\工作\综合实训平台\电表&门禁\door_lock_node_12914\door_lock_node\sensor_node\Project\..\Utilities\STM32_EVAL\STM320518_EVAL
 -I
-C:\Users\runner\Desktop\STM32Cube_test\door_lock_node\sensor_node\Project\light sensor\Src
+G:\工作\综合实训平台\电表&门禁\door_lock_node_12914\door_lock_node\sensor_node\Project\light sensor\Src
 -I
 D:\IAR\arm\CMSIS\Include
 -I
@@ -30,27 +30,27 @@ D:\IAR\arm\inc
 -I
 D:\IAR\arm\inc\c
 -I
-C:\Users\runner\Desktop\STM32Cube_test\door_lock_node\sensor_node
+G:\工作\综合实训平台\电表&门禁\door_lock_node_12914\door_lock_node\sensor_node
 -I
-C:\Users\runner\Desktop\STM32Cube_test\door_lock_node\sensor_node\Drivers\24CXX
+G:\工作\综合实训平台\电表&门禁\door_lock_node_12914\door_lock_node\sensor_node\Drivers\24CXX
 -I
-C:\Users\runner\Desktop\STM32Cube_test\door_lock_node\sensor_node\Drivers\FreeModbus\modbus\include
+G:\工作\综合实训平台\电表&门禁\door_lock_node_12914\door_lock_node\sensor_node\Drivers\FreeModbus\modbus\include
 -I
-C:\Users\runner\Desktop\STM32Cube_test\door_lock_node\sensor_node\Drivers\FreeModbus\modbus\rtu
+G:\工作\综合实训平台\电表&门禁\door_lock_node_12914\door_lock_node\sensor_node\Drivers\FreeModbus\modbus\rtu
 -I
-C:\Users\runner\Desktop\STM32Cube_test\door_lock_node\sensor_node\Drivers\FreeModbus\port
+G:\工作\综合实训平台\电表&门禁\door_lock_node_12914\door_lock_node\sensor_node\Drivers\FreeModbus\port
 -I
-C:\Users\runner\Desktop\STM32Cube_test\door_lock_node\sensor_node\Libraries\CMSIS\Device\ST\STM32F0xx\Include
+G:\工作\综合实训平台\电表&门禁\door_lock_node_12914\door_lock_node\sensor_node\Libraries\CMSIS\Device\ST\STM32F0xx\Include
 -I
-C:\Users\runner\Desktop\STM32Cube_test\door_lock_node\sensor_node\Libraries\STM32F0xx_StdPeriph_Driver\inc
+G:\工作\综合实训平台\电表&门禁\door_lock_node_12914\door_lock_node\sensor_node\Libraries\STM32F0xx_StdPeriph_Driver\inc
 -I
-C:\Users\runner\Desktop\STM32Cube_test\door_lock_node\sensor_node\Libraries\STM32F0xx_CPAL_Driver\inc
+G:\工作\综合实训平台\电表&门禁\door_lock_node_12914\door_lock_node\sensor_node\Libraries\STM32F0xx_CPAL_Driver\inc
 -I
-C:\Users\runner\Desktop\STM32Cube_test\door_lock_node\sensor_node\Utilities\STM32_EVAL\Common
+G:\工作\综合实训平台\电表&门禁\door_lock_node_12914\door_lock_node\sensor_node\Utilities\STM32_EVAL\Common
 -I
-C:\Users\runner\Desktop\STM32Cube_test\door_lock_node\sensor_node\Utilities\STM32_EVAL\STM320518_EVAL
+G:\工作\综合实训平台\电表&门禁\door_lock_node_12914\door_lock_node\sensor_node\Utilities\STM32_EVAL\STM320518_EVAL
 -I
-C:\Users\runner\Desktop\STM32Cube_test\door_lock_node\sensor_node\Project\light sensor\Src
+G:\工作\综合实训平台\电表&门禁\door_lock_node_12914\door_lock_node\sensor_node\Project\light sensor\Src
 -I
 D:\IAR\arm\CMSIS\Include
 -DUSE_STDPERIPH_DRIVER=1
@@ -247,8 +247,8 @@ D:\IAR\arm\CMSIS\Include
 -D__HAS_LOCATED_DECLARATION__=1
 -D__HAS_LOCATED_WITH_INIT__=1
 -D__IAR_COMPILERBASE__=593924
--D__DATE__="Jul  2 2016"
--D__TIME__="17:55:16"
+-D__DATE__="Jul  8 2016"
+-D__TIME__="14:19:38"
 -D__STDC__=1
 -D__STDC_VERSION__=199901L
 -D__STDC_HOSTED__=1
